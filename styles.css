@@ -173,3 +173,26 @@ footer a:hover{ color:#fff; }
   .brand span{ font-size: .98rem; }
   .hero p{ font-size: .98rem; }
 }
+
+/* Botón flotante de donación */
+.donation-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff5a5f;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+/* Efecto hover */
+.donation-button:hover {
+  background-color: #ff3035;
+  transform: scale(1.05);
+}
