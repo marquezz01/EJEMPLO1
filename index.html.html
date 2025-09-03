@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fundación Ejemplo – Acciones que transforman</title>
+  <meta name="description" content="Plantilla HTML + CSS inspirada en una fundación, con texto de ejemplo y espacios para logos e imágenes.">
+
+  <!-- Fuente Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Archivo CSS externo -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header>
+    <div class="container nav" role="navigation" aria-label="Principal">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <div class="logo" aria-hidden="true">FE</div>
+        <span>Fundación Ejemplo</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#programas">Programas</a></li>
+          <li><a href="#impacto">Impacto</a></li>
+          <li><a href="#historias">Historias</a></li>
+          <li><a href="#noticias">Noticias</a></li>
+          <li><a href="#transparencia">Transparencia</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a class="btn btn-outline" href="#donar">Donar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="badge" aria-label="Sello"><span aria-hidden="true">★</span> Programa 100% social</span>
+        <h1>Acciones que transforman <span style="color:var(--brand)">vidas</span> y construyen segundas oportunidades</h1>
+        <p>Texto falso: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non venenatis turpis. Curabitur vitae efficitur nunc, nec pulvinar mi. Integer euismod lacus non sapien dapibus, vitae congue est commodo.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#donar">Quiero donar</a>
+          <a class="btn btn-outline" href="#programas">Ver programas</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="hero-card" role="img" aria-label="Espacio para imagen principal / video">
+          ESPACIO PARA IMAGEN / VIDEO
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÉTRICAS / IMPACTO RÁPIDO -->
+  <div class="metrics" id="impacto">
+    <div class="container grid">
+      <div class="metric">
+        <div class="num">+12.5K</div>
+        <div class="label">Personas beneficiadas</div>
+      </div>
+      <div class="metric">
+        <div class="num">86%</div>
+        <div class="label">Inserción laboral</div>
+      </div>
+      <div class="metric">
+        <div class="num">320</div>
+        <div class="label">Aliados activos</div>
+      </div>
+      <div class="metric">
+        <div class="num">10</div>
+        <div class="label">Años de impacto</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROGRAMAS -->
+  <section id="programas">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Nuestros programas</h2>
+          <p>Todos los textos de esta sección son de ejemplo y pueden ser sustituidos.</p>
+        </div>
+        <a class="btn btn-outline" href="#">Ver todos</a>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-media" role="img" aria-label="Imagen de programa 1"></div>
+          <div class="card-body">
+            <span class="pill">Educación</span>
+            <h3>Formación para la vida</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ex eros, varius in bibendum eu, dictum nec nunc.</p>
+            <p><a href="#" class="btn btn-outline">Conocer más</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media" role="img" aria-label="Imagen de programa 2"></div>
+          <div class="card-body">
+            <span class="pill">Empleo</span>
+            <h3>Puentes a la inserción</h3>
+            <p>Sed sit amet dui non magna commodo volutpat. Mauris vitae augue luctus, pharetra justo ut, volutpat libero.</p>
+            <p><a href="#" class="btn btn-outline">Conocer más</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media" role="img" aria-label="Imagen de programa 3"></div>
+          <div class="card-body">
+            <span class="pill">Emprendimiento</span>
+            <h3>Negocios con propósito</h3>
+            <p>Quisque rhoncus ligula vel arcu tincidunt, eget luctus lorem elementum. Integer laoreet feugiat metus.</p>
+            <p><a href="#" class="btn btn-outline">Conocer más</a></p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section id="historias" class="testimonials">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Historias de cambio</h2>
+          <p>Relatos ficticios a modo de demostración.</p>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-body">
+            <strong>María G.</strong>
+            <p class="quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in risus vitae lectus ultrices efficitur.”</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <strong>Carlos R.</strong>
+            <p class="quote">“Suspendisse tincidunt, urna vel consequat faucibus, dolor dolor finibus nunc, sed gravida velit neque vitae ex.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALIADOS -->
+  <section class="logos" aria-label="Aliados y patrocinadores">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Aliados</h2>
+          <p>Espacio para logos (placeholders con borde punteado).</p>
+        </div>
+      </div>
+      <div class="logos-grid">
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+        <div class="logo-box">LOGO</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTICIAS -->
+  <section id="noticias" class="news">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Noticias y novedades</h2>
+          <p>Entradas de ejemplo con imágenes de relleno.</p>
+        </div>
+        <a class="btn btn-outline" href="#">Ir al blog</a>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card-media" aria-label="Imagen noticia 1" role="img"></div>
+          <div class="card-body">
+            <h3>Título de noticia uno</h3>
+            <p>Proin eget turpis quis quam tristique hendrerit. Integer molestie, justo in varius luctus, lorem nunc consectetur quam.</p>
+            <p><a href="#" class="btn btn-outline">Leer más</a></p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media" aria-label="Imagen noticia 2" role="img"></div>
+          <div class="card-body">
+            <h3>Título de noticia dos</h3>
+            <p>Aenean aliquet, leo sed semper dapibus, tortor arcu porta dui, non sodales magna mauris non massa.</p>
+            <p><a href="#" class="btn btn-outline">Leer más</a></p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media" aria-label="Imagen noticia 3" role="img"></div>
+          <div class="card-body">
+            <h3>Título de noticia tres</h3>
+            <p>Vivamus sed leo ac justo lacinia facilisis. Suspendisse vitae augue nec risus euismod varius non vel lacus.</p>
+            <p><a href="#" class="btn btn-outline">Leer más</a></p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRANSPARENCIA -->
+  <section id="transparencia">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Transparencia</h2>
+          <p>Publica aquí tus reportes, estados financieros, políticas y certificaciones.</p>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-body">
+            <h3>Estados financieros</h3>
+            <p class="muted">Enlaces ficticios a PDFs y reportes anuales.</p>
+            <ul>
+              <li><a href="#">Reporte anual 2024 (PDF)</a></li>
+              <li><a href="#">Estados financieros 2024 (PDF)</a></li>
+              <li><a href="#">Políticas de donación (PDF)</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>Certificaciones y gobierno</h3>
+            <p class="muted">Información tipo: junta directiva, auditorías, cumplimiento.</p>
+            <ul>
+              <li><a href="#">Código de ética</a></li>
+              <li><a href="#">Comité de auditoría</a></li>
+              <li><a href="#">Política de datos</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA DONACIÓN -->
+  <section id="donar">
+    <div class="container">
+      <div class="cta">
+        <div class="grid-2">
+          <div>
+            <h2>Tu aporte impulsa segundas oportunidades</h2>
+            <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum tincidunt eros, a tristique risus fermentum ac.</p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#">Donar ahora</a>
+              <a class="btn btn-outline" href="#">Ser aliado</a>
+            </div>
+          </div>
+          <form aria-label="Formulario de donación (demo)">
+            <label class="sr-only" for="monto">Monto</label>
+            <input class="input" id="monto" type="number" placeholder="Monto (COP)" />
+            <div style="height:10px"></div>
+            <label class="sr-only" for="nombre">Nombre</label>
+            <input class="input" id="nombre" type="text" placeholder="Nombre y apellido" />
+            <div style="height:10px"></div>
+            <label class="sr-only" for="email">Email</label>
+            <input class="input" id="email" type="email" placeholder="Correo electrónico" />
+            <div style="height:10px"></div>
+            <button class="btn btn-primary" type="button">Continuar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Contacto</h2>
+          <p>Déjanos un mensaje. Este formulario es solo de muestra.</p>
+        </div>
+      </div>
+      <div class="grid-2">
+        <form>
+          <label class="sr-only" for="nombre2">Nombre</label>
+          <input class="input" id="nombre2" type="text" placeholder="Nombre completo" />
+          <div style="height:10px"></div>
+          <label class="sr-only" for="correo2">Correo</label>
+          <input class="input" id="correo2" type="email" placeholder="Correo" />
+          <div style="height:10px"></div>
+          <label class="sr-only" for="msj">Mensaje</label>
+          <textarea id="msj" rows="4" placeholder="Tu mensaje"></textarea>
+          <div style="height:12px"></div>
+          <button class="btn btn-primary" type="button">Enviar</button>
+        </form>
+        <div>
+          <h3>Información</h3>
+          <p class="muted">Dirección, ciudad, país (texto de ejemplo). Teléfono: (000) 000 0000</p>
+          <p class="muted">Horario: Lun–Vie 8:00–17:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div>
+          <div class="brand" style="color:#fff">
+            <div class="logo" aria-hidden="true">FE</div>
+            <span>Fundación Ejemplo</span>
+          </div>
+          <p class="muted">Construyendo segundas oportunidades a través de educación, empleo y acompañamiento psicosocial.</p>
+        </div>
+        <div>
+          <strong>La Fundación</strong>
+          <ul style="list-style:none; padding-left:0; line-height:2;">
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Equipo</a></li>
+            <li><a href="#">Aliados</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong>Programas</strong>
+          <ul style="list-style:none; padding-left:0; line-height:2;">
+            <li><a href="#programas">Educación</a></li>
+            <li><a href="#programas">Empleo</a></li>
+            <li><a href="#programas">Emprendimiento</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong>Contacto</strong>
+          <ul style="list-style:none; padding-left:0; line-height:2;">
+            <li><a href="#contacto">Escríbenos</a></li>
+            <li><a href="#donar">Donaciones</a></li>
+            <li><a href="#transparencia">Transparencia</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub">© <span id="year"></span> Fundación Ejemplo — Sitio de demostración con contenido falso.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
