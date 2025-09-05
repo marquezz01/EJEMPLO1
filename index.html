@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fundación — Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#inicio">
+        <img src="img/Logo.png" alt="Logo Fundación" class="logo">
+      </a>
+
+      <nav aria-label="Menú principal">
+        <ul>
+          <li><a href="#programas">Programas</a></li>
+          <li><a href="#impacto">Impacto</a></li>
+          <li><a href="#historias">Historias</a></li>
+          <li><a href="#noticias">Noticias</a></li>
+          <li><a href="#transparencia">Transparencia</a></li>
+          <li><a class="btn btn-outline" href="#donar">Donar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO (único) -->
+  <section class="hero" id="inicio" aria-label="Hero sección">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <span class="tagline">Programa 100% social</span>
+        <h1 class="hero-title">
+          Acciones que transforman <span class="highlight">vidas</span> y construyen segundas oportunidades
+        </h1>
+        <p class="hero-lead">
+          Texto de ejemplo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non venenatis turpis.
+        </p>
+
+        <div class="buttons">
+          <a href="#donar" class="btn btn-primary">Quiero donar</a>
+          <a href="#programas" class="btn btn-outline">Ver programas</a>
+        </div>
+      </div>
+
+      <div class="hero-right" aria-hidden="true">
+        <div class="hero-media" role="img" aria-label="Espacio para imagen o video">
+          <span class="media-label">ESPACIO PARA IMAGEN / VIDEO</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÉTRICAS / IMPACTO RÁPIDO -->
+  <section id="impacto" class="metrics">
+    <div class="container grid">
+      <div class="metric">
+        <div class="num">+12.5K</div>
+        <div class="label">Personas beneficiadas</div>
+      </div>
+      <div class="metric">
+        <div class="num">86%</div>
+        <div class="label">Inserción laboral</div>
+      </div>
+      <div class="metric">
+        <div class="num">320</div>
+        <div class="label">Aliados activos</div>
+      </div>
+      <div class="metric">
+        <div class="num">10</div>
+        <div class="label">Años de impacto</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMAS -->
+  <section id="programas">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Nuestros programas</h2>
+          <p>Diseñados para transformar vidas: formación, empleo y emprendimiento con acompañamiento integral.</p>
+        </div>
+        <a class="btn btn-outline" href="#programas">Ver todos</a>
+      </div>
+
+      <div class="programs-grid" aria-live="polite">
+        <article class="card program reveal" tabindex="0" aria-labelledby="p1-title">
+          <div class="program-media" role="img" aria-label="Formación para la vida">
+            <!-- sustituir por <img src="img/program1.jpg" alt=""> si tienes imágenes -->
+            <span class="program-badge">Educación</span>
+          </div>
+          <div class="card-body">
+            <h3 id="p1-title">Formación para la vida</h3>
+            <p class="muted">Capacitaciones prácticas y acompañamiento para inserción social y laboral. Cursos certificados y mentorías.</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="#donar">Apoyar</a>
+              <a class="btn btn-outline" href="#">Conocer más</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card program reveal" tabindex="0" aria-labelledby="p2-title">
+          <div class="program-media" role="img" aria-label="Puentes a la inserción">
+            <span class="program-badge">Empleo</span>
+          </div>
+          <div class="card-body">
+            <h3 id="p2-title">Puentes a la inserción</h3>
+            <p class="muted">Acompañamos la búsqueda de empleo, colocación y seguimiento con redes de aliados empresariales.</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="#donar">Apoyar</a>
+              <a class="btn btn-outline" href="#">Conocer más</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card program reveal" tabindex="0" aria-labelledby="p3-title">
+          <div class="program-media" role="img" aria-label="Negocios con propósito">
+            <span class="program-badge">Emprendimiento</span>
+          </div>
+          <div class="card-body">
+            <h3 id="p3-title">Negocios con propósito</h3>
+            <p class="muted">Apoyo a emprendimientos: formación en negocio, microcréditos y redes de comercialización.</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="#donar">Apoyar</a>
+              <a class="btn btn-outline" href="#">Conocer más</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS mejorados -->
+  <section id="historias" class="testimonials">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Historias de cambio</h2>
+          <p class="muted">Relatos reales que muestran el impacto de nuestros programas.</p>
+        </div>
+      </div>
+
+      <div class="testimonials-grid" role="list">
+        <article class="testimonial-card reveal" role="listitem" tabindex="0" data-name="María G." data-role="Beneficiaria · Programa de formación" data-photo="img/mujer 1.jpg" data-title="De la formación al empleo" data-full="María participó en nuestro programa de formación y, con mentoría y prácticas, consiguió un empleo estable. Actualmente apoya a otras personas en su comunidad.">
+          <div class="testimonial-body">
+            <img src="img/mujer 1.jpg" alt="María G." class="testimonial-photo" />
+            <div class="testimonial-content">
+              <blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in risus vitae lectus ultrices efficitur.”</blockquote>
+              <footer>
+                <strong class="author">María G.</strong>
+                <span class="role muted">Beneficiaria · Programa de formación</span>
+              </footer>
+              <div class="testimonial-actions">
+                <button class="btn btn-outline story-open" type="button" aria-haspopup="dialog">Leer historia</button>
+                <a class="btn btn-primary" href="#donar">Apoyar</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card reveal" role="listitem" tabindex="0" data-name="Carlos R." data-role="Egresado · Inserción laboral" data-photo="img/mujer 2.jpg" data-title="Nueva oportunidad laboral" data-full="Carlos se formó en habilidades técnicas y ahora trabaja con uno de nuestros aliados. Ha mejorado su calidad de vida y mentoriza a nuevos participantes.">
+          <div class="testimonial-body">
+            <img src="img/mujer 2.jpg" alt="Carlos R." class="testimonial-photo" />
+            <div class="testimonial-content">
+              <blockquote>“Suspendisse tincidunt, urna vel consequat faucibus, sed gravida velit neque vitae ex. Gracias al programa encontré empleo.”</blockquote>
+              <footer>
+                <strong class="author">Carlos R.</strong>
+                <span class="role muted">Egresado · Inserción laboral</span>
+              </footer>
+              <div class="testimonial-actions">
+                <button class="btn btn-outline story-open" type="button" aria-haspopup="dialog">Leer historia</button>
+                <a class="btn btn-primary" href="#donar">Apoyar</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal para historias -->
+  <div id="story-modal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="story-title" aria-modal="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-content" role="document">
+      <button class="modal-close" aria-label="Cerrar" data-close>&times;</button>
+      <div class="modal-grid">
+        <div class="modal-media"><img src="" alt="" id="modal-photo"></div>
+        <div class="modal-body">
+          <h3 id="story-title"></h3>
+          <p class="muted" id="story-role"></p>
+          <p id="story-full"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  (function(){
+    const modal = document.getElementById('story-modal');
+    if (!modal) return;
+    const photo = document.getElementById('modal-photo');
+    const title = document.getElementById('story-title');
+    const role = document.getElementById('story-role');
+    const full = document.getElementById('story-full');
+
+    function openCard(card){
+      const src = card.dataset.photo || '';
+      const name = card.dataset.name || '';
+      const r = card.dataset.role || '';
+      const t = card.dataset.title || '';
+      const f = card.dataset.full || '';
+      photo.src = src;
+      photo.alt = name;
+      title.textContent = t || name;
+      role.textContent = r;
+      full.textContent = f;
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden','false');
+      document.body.style.overflow = 'hidden';
+      // focus trap: focus close button
+      modal.querySelector('.modal-close')?.focus();
+    }
+
+    function closeModal(){
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden','true');
+      document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('.story-open').forEach(btn=>{
+      btn.addEventListener('click', (e)=>{
+        const card = e.target.closest('.testimonial-card');
+        if (card) openCard(card);
+      });
+    });
+
+    modal.querySelectorAll('[data-close]').forEach(el=>{
+      el.addEventListener('click', closeModal);
+    });
+
+    document.addEventListener('keydown', (e)=>{
+      if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+    });
+  })();
+  </script>
+
+  <!-- NOTICIAS -->
+  <section id="noticias" class="news">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Noticias y novedades</h2>
+          <p>Entradas de ejemplo con imágenes de relleno.</p>
+        </div>
+        <a class="btn btn-outline" href="#">Ir al blog</a>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-media" aria-label="Imagen noticia 1" role="img"></div>
+          <div class="card-body">
+            <h3>Título de noticia uno</h3>
+            <p>Proin eget turpis quis quam tristique hendrerit. Integer molestie, justo in varius luctus, lorem nunc consectetur quam.</p>
+            <p><a href="#" class="btn btn-outline">Leer más</a></p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media" aria-label="Imagen noticia 2" role="img"></div>
+          <div class="card-body">
+            <h3>Título de noticia dos</h3>
+            <p>Aenean aliquet, leo sed semper dapibus, tortor arcu porta dui, non sodales magna mauris non massa.</p>
+            <p><a href="#" class="btn btn-outline">Leer más</a></p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media" aria-label="Imagen noticia 3" role="img"></div>
+          <div class="card-body">
+            <h3>Título de noticia tres</h3>
+            <p>Vivamus sed leo ac justo lacinia facilisis. Suspendisse vitae augue nec risus euismod varius non vel lacus.</p>
+            <p><a href="#" class="btn btn-outline">Leer más</a></p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRANSPARENCIA -->
+  <section id="transparencia" class="transparency-section" aria-labelledby="transparencia-title">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 id="transparencia-title">Transparencia</h2>
+          <p class="muted">Reportes, estados financieros, políticas y certificaciones. Descarga los documentos oficiales.</p>
+        </div>
+      </div>
+
+      <div class="transparency-grid" role="list">
+        <article class="card" role="listitem" aria-labelledby="financieros-title">
+          <div class="card-body">
+            <h3 id="financieros-title">Estados financieros</h3>
+            <p class="muted">Enlaces a reportes y balances.</p>
+            <ul class="doc-list">
+              <li><a class="doc-link" href="#" title="Reporte anual 2024 (PDF)"><span class="doc-icon" aria-hidden="true">📄</span><span class="doc-meta"><strong>Reporte anual 2024</strong><span class="doc-sub">PDF · 2.1 MB</span></span></a></li>
+              <li><a class="doc-link" href="#" title="Estados financieros 2024 (PDF)"><span class="doc-icon" aria-hidden="true">📄</span><span class="doc-meta"><strong>Estados financieros 2024</strong><span class="doc-sub">PDF · 980 KB</span></span></a></li>
+              <li><a class="doc-link" href="#" title="Políticas de donación (PDF)"><span class="doc-icon" aria-hidden="true">📄</span><span class="doc-meta"><strong>Políticas de donación</strong><span class="doc-sub">PDF · 320 KB</span></span></a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="gobierno-title">
+          <div class="card-body">
+            <h3 id="gobierno-title">Certificaciones y gobierno</h3>
+            <p class="muted">Documentos sobre gobierno, auditorías y cumplimiento.</p>
+            <ul class="doc-list">
+              <li><a class="doc-link" href="#" title="Código de ética"><span class="doc-icon" aria-hidden="true">✅</span><span class="doc-meta"><strong>Código de ética</strong><span class="doc-sub">Documento</span></span></a></li>
+              <li><a class="doc-link" href="#" title="Comité de auditoría"><span class="doc-icon" aria-hidden="true">🧾</span><span class="doc-meta"><strong>Comité de auditoría</strong><span class="doc-sub">Actas y roles</span></span></a></li>
+              <li><a class="doc-link" href="#" title="Política de datos"><span class="doc-icon" aria-hidden="true">🔒</span><span class="doc-meta"><strong>Política de datos</strong><span class="doc-sub">Política</span></span></a></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA DONACIÓN -->
+  <section id="donar" class="cta-section">
+    <div class="container">
+      <div class="cta-wrapper">
+        <div class="cta-content">
+          <h2 class="cta-title">Tu aporte impulsa segundas oportunidades</h2>
+          <p class="cta-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum tincidunt eros.</p>
+          <div class="cta-buttons">
+            <a href="#" class="btn btn-primary" id="btn-donar">Donar ahora</a>
+            <a href="#" class="btn btn-outline" id="btn-aliado">Ser aliado</a>
+          </div>
+        </div>
+
+        <aside class="cta-form">
+          <form class="donation-form" aria-label="Formulario de donación (demo)">
+            <label for="monto" class="sr-only">Monto</label>
+            <input type="number" id="monto" class="form-input" placeholder="Monto (COP)" required>
+            <label for="nombre" class="sr-only">Nombre</label>
+            <input type="text" id="nombre" class="form-input" placeholder="Nombre y apellido" required>
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" id="email" class="form-input" placeholder="Correo electrónico" required>
+            <button type="submit" class="btn btn-primary btn-block">Continuar</button>
+          </form>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MOVÍ "ALIADOS" AQUÍ (última sección antes del footer) ===== -->
+  <section class="logos" aria-label="Aliados y patrocinadores">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Aliados</h2>
+          <p>Espacio para logos — carrusel automático (demo).</p>
+        </div>
+      </div>
+
+      <div class="logos-carousel" tabindex="0" aria-roledescription="carousel">
+        <div class="logos-track">
+          <div class="logos-item">1</div>
+          <div class="logos-item">2</div>
+          <div class="logos-item">3</div>
+          <div class="logos-item">4</div>
+          <div class="logos-item">5</div>
+          <div class="logos-item">6</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div>
+          <div class="brand" style="color:#fff">
+            <div class="logo" aria-hidden="true">FE</div>
+            <span>Fundación Ejemplo</span>
+          </div>
+          <p class="muted">Construyendo segundas oportunidades a través de educación, empleo y acompañamiento psicosocial.</p>
+        </div>
+        <div>
+          <strong>La Fundación</strong>
+          <ul style="list-style:none; padding-left:0; line-height:2;">
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Equipo</a></li>
+            <li><a href="#">Aliados</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong>Programas</strong>
+          <ul style="list-style:none; padding-left:0; line-height:2;">
+            <li><a href="#programas">Educación</a></li>
+            <li><a href="#programas">Empleo</a></li>
+            <li><a href="#programas">Emprendimiento</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong>Contacto</strong>
+          <ul style="list-style:none; padding-left:0; line-height:2;">
+            <li><a href="mailto:info@fundacion.ejemplo">Escríbenos</a></li>
+            <li><a href="#donar">Donaciones</a></li>
+            <li><a href="#transparencia">Transparencia</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub">© <span id="year"></span> Fundación Ejemplo — Sitio de demostración con contenido falso.</div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS: año + carrusel (consolidado) -->
+  <script>
+    // año en footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // carrusel logos (simple, consolidado)
+    (function(){
+      const track = document.querySelector('.logos-track');
+      const carousel = document.querySelector('.logos-carousel');
+      if (!track || !carousel) return;
+
+      // duplicar contenido para loop seamless si aún no duplicado
+      if (!track.dataset.duplicated) {
+        track.innerHTML = track.innerHTML + track.innerHTML;
+        track.dataset.duplicated = 'true';
+      }
+
+      let halfWidth = 0;
+      let offset = 0;
+      const speed = 60; // px / s
+      let last = performance.now();
+      let paused = false;
+
+      function recalc(){ halfWidth = track.scrollWidth / 2; }
+      recalc();
+      window.addEventListener('resize', recalc);
+
+      carousel.addEventListener('mouseenter', ()=> paused = true);
+      carousel.addEventListener('mouseleave', ()=> { paused = false; last = performance.now(); });
+      carousel.addEventListener('focusin', ()=> paused = true);
+      carousel.addEventListener('focusout', ()=> { paused = false; last = performance.now(); });
+
+      function step(now){
+        if (!paused) {
+          const dt = (now - last) / 1000;
+          last = now;
+          offset += speed * dt;
+          if (halfWidth && offset >= halfWidth) offset -= halfWidth;
+          track.style.transform = `translateX(${-offset}px)`;
+        } else {
+          last = now;
+        }
+        requestAnimationFrame(step);
+      }
+
+      track.style.willChange = 'transform';
+      track.style.transform = 'translateX(0)';
+      last = performance.now();
+      requestAnimationFrame(step);
+    })();
+  </script>
+
+  <!-- Floating donate button (siempre visible) -->
+  <a href="#donar" class="donation-button" aria-label="Donar ahora" title="Donar ahora">Donar</a>
+
+  <script>
+(function(){
+  const PAY_URL = 'https://portalpagos.davivienda.com/#/comercio/9492/Fundacion%20Accion%20Interna';
+
+  // enlaces que usan href="#donar"
+  document.querySelectorAll('a[href="#donar"]').forEach(a=>{
+    a.href = PAY_URL;
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
+
+  // botón flotante
+  const floatBtn = document.querySelector('.donation-button');
+  if (floatBtn) { floatBtn.href = PAY_URL; floatBtn.target = '_blank'; floatBtn.rel = 'noopener'; }
+
+  // botones directos (id / clases)
+  document.querySelectorAll('#btn-donar, .btn-donate').forEach(el=>{
+    el.addEventListener('click', (e)=>{
+      e.preventDefault();
+      const w = window.open(PAY_URL, '_blank');
+      if (w) w.opener = null;
+    });
+  });
+
+  // formulario: abrir portal en nueva pestaña al enviar (sin intentar guardar en backend)
+  const form = document.querySelector('.donation-form');
+  if (form) {
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      // opcional: leer monto y añadir como query param
+      const monto = (form.querySelector('#monto')?.value || '').trim();
+      const url = monto ? (PAY_URL + '?monto=' + encodeURIComponent(monto)) : PAY_URL;
+      const w = window.open(url, '_blank');
+      if (w) w.opener = null;
+    });
+  }
+})();
+  </script>
+
+  <!-- pequeño script para animar las tarjetas al entrar en viewport -->
+  <script>
+  (function(){
+    const obs = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  })();
+  </script>
+</body>
+</html>
